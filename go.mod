@@ -1,6 +1,6 @@
 module github.com/pedromnchunks35/generic-mock
 
-go 1.21.1
+go 1.20
 
 require (
 	github.com/hyperledger/fabric-chaincode-go v0.0.0-20230731094759-d626e9ab09b9
