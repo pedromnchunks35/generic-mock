@@ -1,8 +1,9 @@
 package transaction
 
 import (
-	stub "generic-mock/mocks/stub"
 	"sync"
+
+	stub "github.com/pedromnchunks35/generic-mock/mocks/stub"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"

@@ -1,12 +1,13 @@
 package test
 
 import (
-	c "generic-mock/chaincode"
-	mocksLedger "generic-mock/mocks/ledger"
-	mocksStub "generic-mock/mocks/stub"
-	mocksTransaction "generic-mock/mocks/transaction"
 	"log"
 	"testing"
+
+	c "github.com/pedromnchunks35/generic-mock/chaincode"
+	mocksLedger "github.com/pedromnchunks35/generic-mock/mocks/ledger"
+	mocksStub "github.com/pedromnchunks35/generic-mock/mocks/stub"
+	mocksTransaction "github.com/pedromnchunks35/generic-mock/mocks/transaction"
 )
 
 var TransactionContext *mocksTransaction.Transaction

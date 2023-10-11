@@ -2,8 +2,9 @@ package stub
 
 import (
 	"fmt"
-	ledger "generic-mock/mocks/ledger"
 	"sort"
+
+	ledger "github.com/pedromnchunks35/generic-mock/mocks/ledger"
 
 	"github.com/hyperledger/fabric-chaincode-go/shim"
 	"github.com/hyperledger/fabric-protos-go/ledger/queryresult"
